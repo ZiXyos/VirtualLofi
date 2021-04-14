@@ -1,1 +1,4 @@
 .ENV
+*.lock
+*.log
+nodes_modules/
