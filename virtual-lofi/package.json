@@ -1,0 +1,17 @@
+{
+  "name": "virtual-lofi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "docker-build": "docker build . -t ghcr.io/zixyos/virtual-lofi",
+    "docker-start": "docker run -p 3000:3000 ghcr.io/zixyos/virtual-lofi"
+  },
+  "dependencies": {
+    "next": "10.2.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
